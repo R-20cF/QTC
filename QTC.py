@@ -11,6 +11,7 @@ from random import randint
 # Initialise 3 qubits and 3 cbits
 qc = QuantumCircuit(3, 3)
 
+# Set random values for parameters of U
 varphi = 0.5
 theta = 1.5
 
